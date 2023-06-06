@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog Editor</title>
+</head>
+<body>
+<h1>Write Your Blog</h1>
+	<form method="POST" enctype="multipart/form-data">
+		{% csrf_token %}
+        {{ main_form.as_p }}
+		<button type="submit">Submit</button>
+	</form>
+</body>
+</html>

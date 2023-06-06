@@ -1,0 +1,50 @@
+.blogp{
+text-align: center;
+}
+
+.d1 {
+   height: 450px;
+   width: 100%;
+   background-image:
+       url("b1.png");
+   background-repeat: no-repeat, no-repeat;
+   margin:0;
+   padding: 0;
+}
+
+.d2{
+height: 450px;
+   width: 100%;
+   background-image:
+       url("b2.png");
+   background-repeat: no-repeat, no-repeat;
+}
+
+.d3{
+height: 450px;
+   width: 100%;
+   background-image:
+       url("b3.png");
+   background-repeat: no-repeat, no-repeat;
+}
+
+.d4{
+height: 450px;
+   width: 100%;
+   background-image:
+       url("b4.png");
+   background-repeat: no-repeat, no-repeat;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
